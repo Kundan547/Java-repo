@@ -29,7 +29,7 @@ class pro_2 {
 	public static void main(String args[]) 
 	{ 
 		int n1 = 50; 
-		int n2 = 500; 
+		int n2 = 600; 
 		ArmstrongNum(n1, n2); 
 		System.out.println(); 
 	} 
