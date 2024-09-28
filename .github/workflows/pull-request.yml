@@ -3,7 +3,7 @@ name: Create Pull Request on Push
 on:
   push:
     branches:
-      - pull-request  # Replace "main" with your desired branch
+      - pull-request  
 
 jobs:
   create-pull-request:
@@ -18,4 +18,4 @@ jobs:
           title: "Pull Request: ${GITHUB_REF}"
           body: "This pull request automatically created on push."
           head: ${{ github.ref }}
-          base: pull-request  # Replace "main" with your desired base branch
+          base: pull-request  

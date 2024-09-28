@@ -12,5 +12,6 @@ public class pro_1 {
         System.out.println("You entered: " + number);
         
         scanner.close();
+        System.out.println("Hey everyone");
     }
 }
